@@ -8,9 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		4D23F8DD2563336B00B71502 /* Ink in Frameworks */ = {isa = PBXBuildFile; productRef = 4D23F8DC2563336B00B71502 /* Ink */; };
+		9F9461052787C9A90031798B /* Squid_s_Interfaced_Text_Editor_s_Markdown_ToolApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86EE9C82785046B00B636F7 /* Squid_s_Interfaced_Text_Editor_s_Markdown_ToolApp.swift */; };
+		9F9461062787C9AC0031798B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86EE9C72785046B00B636F7 /* ContentView.swift */; };
+		9F9461072787C9AF0031798B /* Squid_s_Interfaced_Text_Editor_s_Markdown_ToolDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86EE9C62785046B00B636F7 /* Squid_s_Interfaced_Text_Editor_s_Markdown_ToolDocument.swift */; };
+		9F9461082787C9B10031798B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86EE9C42785046B00B636F7 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F9461042787C8790031798B /* Markdown Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Markdown Tool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86EE9C32785046B00B636F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C86EE9C42785046B00B636F7 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		C86EE9C52785046B00B636F7 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
@@ -18,7 +23,6 @@
 		C86EE9C72785046B00B636F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C86EE9C82785046B00B636F7 /* Squid_s_Interfaced_Text_Editor_s_Markdown_ToolApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squid_s_Interfaced_Text_Editor_s_Markdown_ToolApp.swift; sourceTree = "<group>"; };
 		C86EE9C92785046B00B636F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C8C44DF6278733FE006DF923 /* Squid's Interface Text Editor's Markdown Tool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Squid's Interface Text Editor's Markdown Tool.app"; path = "/Users/Dante/Desktop/Markdown Tool/build/Debug/Squid's Interface Text Editor's Markdown Tool.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				C86EE9C22785046B00B636F7 /* Squid's Interfaced Text Editor's Markdown Tool */,
+				9F9461042787C8790031798B /* Markdown Tool.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,7 +79,7 @@
 				4D23F8DC2563336B00B71502 /* Ink */,
 			);
 			productName = "SwiftUIMarkdownEditor (macOS)";
-			productReference = C8C44DF6278733FE006DF923 /* Squid's Interface Text Editor's Markdown Tool.app */;
+			productReference = 9F9461042787C8790031798B /* Markdown Tool.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -127,6 +132,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F9461072787C9AF0031798B /* Squid_s_Interfaced_Text_Editor_s_Markdown_ToolDocument.swift in Sources */,
+				9F9461082787C9B10031798B /* WebView.swift in Sources */,
+				9F9461062787C9AC0031798B /* ContentView.swift in Sources */,
+				9F9461052787C9A90031798B /* Squid_s_Interfaced_Text_Editor_s_Markdown_ToolApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
